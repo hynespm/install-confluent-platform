@@ -12,3 +12,4 @@ min_ver = maj_ver + major_version[2]
 logging.info(maj_ver)
 os.environ["CONFLUENT_MAJOR_VERSION"] = maj_ver
 os.environ["CONFLUENT_MINOR_VERSION"] = min_ver
+logging.info(os.environ("CONFLUENT_MAJOR_VERSION"))
