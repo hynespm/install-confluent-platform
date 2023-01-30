@@ -79,7 +79,7 @@ jobs:
             CONFLUENT_MINOR_VERSION=7.2.2
             INSTALL_DIR=/tmp
           push: ${{ github.event_name != 'pull_request' }}
-          tags: 7.2.2
+          tags: 7.2
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
