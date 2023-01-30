@@ -46,7 +46,7 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
-        run: python extract-vars.py
+      - run: python extract-vars.py
 
       # Install the cosign tool except on PR
       # https://github.com/sigstore/cosign-installer
